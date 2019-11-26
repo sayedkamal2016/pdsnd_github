@@ -11,7 +11,7 @@ def filters():
     # getting the city input
     while True:
         try:
-            city = input('insert which city you eant to examine >> ').lower()
+            city = input('insert which city do you want to examine chicago, newo york city or washington>> ').lower()
 
             if city in city_data:
                 print('ok, let\'s go on')
