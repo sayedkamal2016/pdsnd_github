@@ -17,7 +17,7 @@ def filters():
                 print('ok, let\'s go on')
                 break
             elif city not in city_data:
-                print('city is not in our list, retry and check the name')
+                print('Wrong value, please recheck your entry')
 
         except:
 
